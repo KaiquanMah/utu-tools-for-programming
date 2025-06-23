@@ -1,0 +1,106 @@
+Cloned the week 2 exercise 1 repo from UTU Gitlab
+@KaiquanMah ➜ /workspaces/utu-tools-for-programming (main) $ git clone https://gitlab.utu.fi/tools-for-programming/week-2-exercise-1.git 
+Cloning into 'week-2-exercise-1'...
+remote: Enumerating objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 3 (from 1)
+Receiving objects: 100% (3/3), done.
+
+
+
+Then updated name.txt with my name
+
+
+
+
+
+Then committed my changes
+@KaiquanMah ➜ /workspaces/utu-tools-for-programming (main) $ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        week-2-exercise-1/
+
+nothing added to commit but untracked files present (use "git add" to track)
+@KaiquanMah ➜ /workspaces/utu-tools-for-programming (main) $ git add .
+warning: adding embedded git repository: week-2-exercise-1
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> week-2-exercise-1
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached week-2-exercise-1
+hint:
+hint: See "git help submodule" for more information.
+hint: Disable this message with "git config set advice.addEmbeddedRepo false"
+@KaiquanMah ➜ /workspaces/utu-tools-for-programming (main) $ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   week-2-exercise-1
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   week-2-exercise-1 (modified content)
+
+@KaiquanMah ➜ /workspaces/utu-tools-for-programming (main) $ git commit -m "Cloned week2ex1 folder, updated name.txt"
+[main e4beece] Cloned week2ex1 folder, updated name.txt
+ 1 file changed, 1 insertion(+)
+ create mode 160000 week-2-exercise-1
+@KaiquanMah ➜ /workspaces/utu-tools-for-programming (main) $ git push origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 305 bytes | 305.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/KaiquanMah/utu-tools-for-programming
+   d6f0040..e4beece  main -> main
+
+
+
+
+
+
+
+Changes were not committed
+So we implemented some fixes
+- remove references/commit hashes (because the week2-exercise-1 folder was cloned from another repo)
+
+@KaiquanMah ➜ /workspaces/utu-tools-for-programming (main) $ rm -rf week-2-exercise-1/.git
+@KaiquanMah ➜ /workspaces/utu-tools-for-programming (main) $ git rm --cached week-2-exercise-1
+
+
+
+
+
+
+
+
+
+Then we commit our changes again
+@KaiquanMah ➜ /workspaces/utu-tools-for-programming (main) $ git add week-2-exercise-1/
+@KaiquanMah ➜ /workspaces/utu-tools-for-programming (main) $ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    week-2-exercise-1
+        new file:   week-2-exercise-1/name.txt
+        new file:   week-2-exercise-1/week2ex1-commands.txt
+@KaiquanMah ➜ /workspaces/utu-tools-for-programming (main) $ git commit -m "Cloned week2ex1 folder, updated name.txt"
+@KaiquanMah ➜ /workspaces/utu-tools-for-programming (main) $ git push origin main
+
+
+
