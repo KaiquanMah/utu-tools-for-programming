@@ -31,7 +31,9 @@ public class FixMe {
         // 3. added '()' brackets to while loop's condition
         while (index < list.size()) {
             int element = list.get(index);
-            if (element > 0) {
+            // fixed the logic from '>' to '<'
+            // because check for negative values, then remove from the list
+            if (element < 0) {
                 // 4. fixed typo: 'inde' to 'index'
                 list.remove(index);
             } else {
