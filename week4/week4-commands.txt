@@ -1,0 +1,48 @@
+Check Java version
+@KaiquanMah ➜ /workspaces/utu-tools-for-programming (main) $ java -version
+openjdk version "21.0.7" 2025-04-15 LTS
+OpenJDK Runtime Environment Microsoft-11369942 (build 21.0.7+6-LTS)
+OpenJDK 64-Bit Server VM Microsoft-11369942 (build 21.0.7+6-LTS, mixed mode, sharing)
+
+
+
+Create Maven project from the Github Codespace UI
+- Maven > New Project
+- Updated pom.xml
+- Create Calculator.java following week 4 class -> then bring in assignment code -> then fixed
+- Create CalculatorTest.java following week 4 class -> then bring in assignment code -> then fixed
+- Run unit test
+  - Right click on 'CalculatorTest.java' > Run Test
+  - For documentation, please refer to: /workspaces/utu-tools-for-programming/week4/week4-tests-passed.png
+
+
+
+
+
+
+
+
+Terminal commands to commit week4 assignment
+@KaiquanMah ➜ /workspaces/utu-tools-for-programming (main) $ git add .
+@KaiquanMah ➜ /workspaces/utu-tools-for-programming (main) $ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   Week3-1/target/classes/fi/utu/kaiquanmah/Main.class
+        modified:   Week3-1/target/classes/fi/utu/kaiquanmah/Person.class
+        modified:   Week3-1/target/test-classes/fi/utu/kaiquanmah/AppTest.class
+        new file:   week4/pom.xml
+        new file:   week4/src/main/java/fi/utu/kaiquanmah/Calculator.java
+        new file:   week4/src/main/java/fi/utu/kaiquanmah/Main.java
+        new file:   week4/src/test/java/fi/utu/kaiquanmah/CalculatorTest.java
+        new file:   week4/target/classes/fi/utu/kaiquanmah/Calculator.class
+        new file:   week4/target/classes/fi/utu/kaiquanmah/Main.class
+        new file:   week4/target/test-classes/fi/utu/kaiquanmah/CalculatorTest.class
+        new file:   week4/week4-commands.txt
+        new file:   week4/week4-tests-passed.png
+
+        
+@KaiquanMah ➜ /workspaces/utu-tools-for-programming (main) $ git commit -m "week4 assignment calculator test"
+@KaiquanMah ➜ /workspaces/utu-tools-for-programming (main) $ git push origin main
