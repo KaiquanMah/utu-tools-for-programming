@@ -1,0 +1,10 @@
+Create poem.txt, then fill it up
+@KaiquanMah ➜ /workspaces/utu-tools-for-programming (main) $ pwd
+/workspaces/utu-tools-for-programming
+@KaiquanMah ➜ /workspaces/utu-tools-for-programming (main) $ ls
+LICENSE  README.md  week-1  week-2-exercise-1
+@KaiquanMah ➜ /workspaces/utu-tools-for-programming (main) $ mkdir week-2-exercise-2
+@KaiquanMah ➜ /workspaces/utu-tools-for-programming (main) $ cd week-2-exercise-2
+@KaiquanMah ➜ /workspaces/utu-tools-for-programming/week-2-exercise-2 (main) $ touch poem.txt
+
+
