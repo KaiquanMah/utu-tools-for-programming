@@ -386,6 +386,12 @@ Changes to be committed:
         new file:   Week3-1/target/surefire-reports/TEST-fi.utu.kaiquanmah.AppTest.xml
         new file:   Week3-1/target/surefire-reports/fi.utu.kaiquanmah.AppTest.txt
         new file:   Week3-1/week3-commands.txt
+        new file:   Week3-1-1.0.0-jar-with-dependencies.jar
+        new file:   Week3-1/target/Week3-1-1.0.0-jar-with-dependencies.jar
+        new file:   Week3-1/target/Week3-1-1.0.0.jar
+        new file:   Week3-1/target/classes/fi/utu/kaiquanmah/Main.class
+        new file:   Week3-1/target/classes/fi/utu/kaiquanmah/Person.class
+        new file:   Week3-1/target/test-classes/fi/utu/kaiquanmah/AppTest.class
         modified:   week-2-exercise-2/week2ex2-commands.txt
 
 
