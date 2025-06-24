@@ -16,7 +16,7 @@
 
 ## Week 3
 * 1st Maven Project - 'Week3-1' folder
-  * Packaged JAR file is in the root folder: 'Week3-1-1.0.0-jar-with-dependencies.jar'
+    * Packaged JAR file is in the root folder: 'Week3-1-1.0.0-jar-with-dependencies.jar'
     * Workings are in 'Week3-1/week3-commands.txt'
 
 
